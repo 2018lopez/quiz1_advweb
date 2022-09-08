@@ -10,7 +10,7 @@ import (
 // Create Entry Handler - POST - /v1/entries
 func (app *application) createEntryHandler(w http.ResponseWriter, r *http.Request) {
 
-	fmt.Fprintln(w, "create")
+	fmt.Fprintln(w, "Create Entry")
 
 }
 
