@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Sep  8 15:34:11 2022
+# Make data base, printed on Fri Sep  9 05:48:52 2022
 
 # Variables
 
@@ -59,13 +59,13 @@ VSCODE_CODE_CACHE_PATH = /home/imer/.config/Code/CachedData/784b0177c56c607789f9
 # environment
 LANG = C
 # environment
-XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.5KHBS1
+XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.78LXR1
 # default
 .LOADED := 
 # default
 .INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
 # environment
-GNOME_TERMINAL_SERVICE = :1.110
+GNOME_TERMINAL_SERVICE = :1.100
 # makefile
 MAKEFLAGS = pqrR
 # makefile
@@ -99,7 +99,7 @@ SNAP_REEXEC =
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 3520
+VSCODE_PID = 3592
 # environment
 HISTIGNORE = &:[ ]*:exit:ls:bg:fg:history:clear
 # environment
@@ -107,7 +107,7 @@ XDG_SESSION_TYPE = wayland
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
-SESSION_MANAGER = local/geeks:@/tmp/.ICE-unix/1968,unix/geeks:/tmp/.ICE-unix/1968
+SESSION_MANAGER = local/geeks:@/tmp/.ICE-unix/1876,unix/geeks:/tmp/.ICE-unix/1876
 # automatic
 *F = $(notdir $*)
 # environment
@@ -135,7 +135,7 @@ XMODIFIERS = @im=ibus
 # environment
 SHLVL = 1
 # environment
-GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/b840bf2c_34ad_47ff_ac85_be9b7f4f5af8
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/b317f20a_36f8_4284_b415_91835eff019e
 # environment
 MAKELEVEL := 0
 # default
@@ -185,7 +185,7 @@ SNAP_ARCH = amd64
 # makefile
 .DEFAULT_GOAL := 
 # environment
-SYSTEMD_EXEC_PID = 2014
+SYSTEMD_EXEC_PID = 1929
 # environment
 DISPLAY = :0
 # environment
@@ -277,6 +277,9 @@ SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd
 
 # No implicit rules.
 
+ 
+make: *** No rule to make target 'all'.  Stop.
+
 # Files
 
 # Not a target:
@@ -313,8 +316,6 @@ all:
 # strcache performance: lookups = 21 / hit rate = 19%
 # hash-table stats:
 # Load=17/8192=0%, Rehash=0, Collisions=0/21=0%
-# Finished Make data base on Thu Sep  8 15:34:11 2022
+# Finished Make data base on Fri Sep  9 05:48:52 2022
 
  
-make: *** No rule to make target 'all'.  Stop.
-
